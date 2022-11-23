@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.container{
+  width: 1920px;
+  height: auto;
+  background-color: #ffff00;
+  margin: 0 auto;
+}
+
+.common{
+  height: 1080px;
+}
+
+.home{
+  background-color: aqua;
+}
+
+.profile{
+  background-color: blueviolet;
+}
+
+.skill{
+  background-color: blanchedalmond;
+}
+
+.portfolio{
+  background-color: brown;
+}
