@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,19 +11,32 @@
 
 <body>
   <div class="container">
-    <div class="home common">home
+    <div class="home common" id="home">home
 
     </div>
-    <div class="profile common">profile
+    <header class="header" id="test">
+      <ul id="page-link">
+        <li><a href="#home">home</a></li>
+        <li><a href="#profile">profile</a></li>
+        <li><a href="#skill">skill</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+      </ul>
+    </header>
+    <div class="profile common" id="profile">profile
 
     </div>
-    <div class="skill common">skill
+    <div class="skill common" id="skill">skill
 
     </div>
-    <div class="portfolio common">portfolio
-      
+    <div class="portfolio common" id="portfolio">portfolio
+
     </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/index.js">
+
+  </script>
 </body>
 
 </html>
