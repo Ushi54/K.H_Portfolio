@@ -1,34 +1,36 @@
-@charset "UTF-8";
-
-.container{
+.container {
   width: 1920px;
   height: auto;
   background-color: #ffff00;
   margin: 0 auto;
 }
 
-.header{
+.header {
   height: 100px;
+  background-color: #9E927C;
 }
 
-
-
-.common{
+.common {
   height: 1080px;
 }
 
-.home{
+.home {
   background-color: aqua;
 }
+.home img {
+  height: 1080px;
+  width: 1920px;
+}
 
-.profile{
+.profile {
   background-color: blueviolet;
 }
 
-.skill{
+.skill {
   background-color: blanchedalmond;
 }
 
-.portfolio{
+.portfolio {
   background-color: brown;
 }
+/*# sourceMappingURL=style.css.map */
