@@ -1,7 +1,6 @@
 .container {
   width: 1920px;
   height: auto;
-  background-color: #ffff00;
   margin: 0 auto;
 }
 
@@ -10,27 +9,55 @@
   background-color: #9E927C;
 }
 
+.footer {
+  height: 78px;
+  width: 1920px;
+  background-color: #9E927C;
+  position: relative;
+}
+.footer p {
+  font-size: 24px;
+  color: #FFFEFC;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .common {
   height: 1080px;
 }
 
 .home {
-  background-color: aqua;
+  position: relative;
 }
 .home img {
   height: 1080px;
   width: 1920px;
 }
+.home p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFEFC;
+  font-size: 120px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 806px;
+  height: 166px;
+  text-align: center;
+  font-family: "Klee One", cursive;
+}
 
 .profile {
-  background-color: blueviolet;
+  background: linear-gradient(#FFFEFC, #EBE2D1);
 }
 
 .skill {
-  background-color: blanchedalmond;
+  background: linear-gradient(#EBE2D1, #FFFEFC);
 }
 
 .portfolio {
-  background-color: brown;
+  background: linear-gradient(#FFFEFC, #EBE2D1);
 }
 /*# sourceMappingURL=style.css.map */
