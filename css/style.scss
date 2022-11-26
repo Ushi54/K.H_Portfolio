@@ -16,6 +16,19 @@ $accent-color: #6E839E;
 .header{
   height: 100px;
   background-color: $main-color;
+  position: relative;
+  ul{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: $base-color-w;
+    li{
+      float: left;
+      margin: 0 55px;
+      font-size: 30px;
+    }
+  }
 }
 
 .footer{
@@ -37,6 +50,19 @@ $accent-color: #6E839E;
 
 .common{
   height: 1080px;
+  position: relative;
+  p{
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    display: inline;
+    color: $base-color-w;
+    font-size: 50px;
+    font-family: YuGothic;
+    font-weight: bold;
+    background-color: $accent-color;
+    padding: 7px 15px;
+  }
 }
 
 .home{
@@ -61,13 +87,13 @@ $accent-color: #6E839E;
 }
 
 .profile{
-  background: linear-gradient($base-color-w, $base-color-b)
+  background: linear-gradient($base-color-w, $base-color-b);
 }
 
 .skill{
-  background: linear-gradient($base-color-b, $base-color-w)
+  background: linear-gradient($base-color-b, $base-color-w);
 }
 
 .portfolio{
-  background: linear-gradient($base-color-w, $base-color-b)
+  background: linear-gradient($base-color-w, $base-color-b);
 }

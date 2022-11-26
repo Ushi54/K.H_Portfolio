@@ -7,6 +7,19 @@
 .header {
   height: 100px;
   background-color: #9E927C;
+  position: relative;
+}
+.header ul {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #FFFEFC;
+}
+.header ul li {
+  float: left;
+  margin: 0 55px;
+  font-size: 30px;
 }
 
 .footer {
@@ -26,6 +39,19 @@
 
 .common {
   height: 1080px;
+  position: relative;
+}
+.common p {
+  position: absolute;
+  top: 125px;
+  left: 125px;
+  display: inline;
+  color: #FFFEFC;
+  font-size: 50px;
+  font-family: YuGothic;
+  font-weight: bold;
+  background-color: #6E839E;
+  padding: 7px 15px;
 }
 
 .home {
