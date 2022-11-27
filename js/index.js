@@ -28,3 +28,22 @@ $('#page-link a[href^="#"]').click(function () {
 });
 
 /*■■■■■■■■■■page-linkスクロールイベント終■■■■■■■■■■■■■*/
+
+/*■■■■■■■■■■ヘッダー固定イベント始■■■■■■■■■■■■■*/
+
+const nav = document.querySelector(".nav");
+const menu = document.querySelector("#page-link");
+const home = document.querySelector(".home");
+window.addEventListener("scroll", () => {
+  console.log(window.pageYOffset);
+  if (window.pageYOffset >= menu.offsetTop) {
+    nav.classList.add("fxd");
+    home.classList.add("add_hi");
+  } else {
+    nav.classList.remove("fxd");
+    home.classList.remove("add_hi");
+  }
+});
+
+
+/*■■■■■■■■■■ヘッダー固定イベント終■■■■■■■■■■■■■*/

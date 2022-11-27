@@ -8,22 +8,27 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.nav {
   height: 100px;
+  width: 100%;
   background-color: #9E927C;
-  position: relative;
+  text-align: center;
 }
-.header ul {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+.nav ul {
+  display: inline-block;
   color: #FFFEFC;
+  width: 1000px;
 }
-.header ul li {
-  float: left;
-  margin: 0 55px;
+.nav ul li {
+  display: inline-block;
+  margin: 38px 55px;
   font-size: 30px;
+}
+
+.fxd {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .footer {
@@ -76,6 +81,10 @@ body {
   height: 166px;
   text-align: center;
   font-family: "Klee One", cursive;
+}
+
+.add_hi {
+  margin-bottom: 100px;
 }
 
 .profile {

@@ -13,26 +13,30 @@ body{
 .container{
   width: 1920px;
   height: auto;
- // background-color: #ffff00;
   margin: 0 auto;
 }
 
-.header{
+.nav{
   height: 100px;
+  width: 100%;
   background-color: $main-color;
-  position: relative;
+  text-align: center;
   ul{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
+    display: inline-block;
     color: $base-color-w;
+    width: 1000px;
     li{
-      float: left;
-      margin: 0 55px;
+      display: inline-block;
+      margin: 38px 55px;
       font-size: 30px;
     }
   }
+}
+
+.fxd{
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .footer{
@@ -87,6 +91,10 @@ body{
     text-align: center;
     font-family: 'Klee One', cursive;
   }
+}
+
+.add_hi{
+  margin-bottom: 100px;
 }
 
 .profile{
