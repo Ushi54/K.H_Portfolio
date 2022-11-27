@@ -6,6 +6,10 @@ $base-color-b:  #EBE2D1;
 $base-color-lb: #D0DCEA;
 $accent-color: #6E839E;
 
+body{
+  font-family: YuGothic;
+}
+
 .container{
   width: 1920px;
   height: auto;
@@ -51,14 +55,13 @@ $accent-color: #6E839E;
 .common{
   height: 1080px;
   position: relative;
-  p{
+  .caption{
     position: absolute;
     top: 125px;
     left: 125px;
     display: inline;
     color: $base-color-w;
     font-size: 50px;
-    font-family: YuGothic;
     font-weight: bold;
     background-color: $accent-color;
     padding: 7px 15px;
@@ -88,6 +91,34 @@ $accent-color: #6E839E;
 
 .profile{
   background: linear-gradient($base-color-w, $base-color-b);
+  position: relative;
+  .profile_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 853px;
+    height: 387px;
+    img{
+      width: 387px;
+      height: 387px;
+      border-radius: 50%;
+    }
+    .intro{
+      width: 416px;
+      height: 387px;
+      float: right;
+      margin-top: 80px;
+      .name{
+        font-size: 24px;
+        margin-bottom: 38px;
+      }
+      .section{
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+  }
 }
 
 .skill{

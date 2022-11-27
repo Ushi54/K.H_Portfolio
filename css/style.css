@@ -1,3 +1,7 @@
+body {
+  font-family: YuGothic;
+}
+
 .container {
   width: 1920px;
   height: auto;
@@ -41,14 +45,13 @@
   height: 1080px;
   position: relative;
 }
-.common p {
+.common .caption {
   position: absolute;
   top: 125px;
   left: 125px;
   display: inline;
   color: #FFFEFC;
   font-size: 50px;
-  font-family: YuGothic;
   font-weight: bold;
   background-color: #6E839E;
   padding: 7px 15px;
@@ -77,6 +80,34 @@
 
 .profile {
   background: linear-gradient(#FFFEFC, #EBE2D1);
+  position: relative;
+}
+.profile .profile_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 853px;
+  height: 387px;
+}
+.profile .profile_box img {
+  width: 387px;
+  height: 387px;
+  border-radius: 50%;
+}
+.profile .profile_box .intro {
+  width: 416px;
+  height: 387px;
+  float: right;
+  margin-top: 80px;
+}
+.profile .profile_box .intro .name {
+  font-size: 24px;
+  margin-bottom: 38px;
+}
+.profile .profile_box .intro .section {
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .skill {
