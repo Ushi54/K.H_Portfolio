@@ -32,16 +32,16 @@ $('#page-link a[href^="#"]').click(function () {
 /*■■■■■■■■■■ヘッダー固定イベント始■■■■■■■■■■■■■*/
 
 const nav = document.querySelector(".nav");
-const menu = document.querySelector("#page-link");
 const home = document.querySelector(".home");
+const profile = document.querySelector(".profile");
 window.addEventListener("scroll", () => {
   console.log(window.pageYOffset);
-  if (window.pageYOffset >= menu.offsetTop) {
+  if (window.pageYOffset >= 1080) {
     nav.classList.add("fxd");
-    home.classList.add("add_hi");
+    profile.classList.add("add_hi");
   } else {
     nav.classList.remove("fxd");
-    home.classList.remove("add_hi");
+    profile.classList.remove("add_hi");
   }
 });
 
