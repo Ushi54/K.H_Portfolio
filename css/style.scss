@@ -132,6 +132,11 @@ body{
 
 .skill{
   background: linear-gradient($base-color-b, $base-color-w);
+  .project{
+    img{
+      height: 410px;
+    }
+  }
 }
 
 .portfolio{

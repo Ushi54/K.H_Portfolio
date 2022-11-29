@@ -123,6 +123,9 @@ body {
 .skill {
   background: linear-gradient(#EBE2D1, #FFFEFC);
 }
+.skill .project img {
+  height: 410px;
+}
 
 .portfolio {
   background: linear-gradient(#FFFEFC, #EBE2D1);
