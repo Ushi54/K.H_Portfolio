@@ -35,7 +35,6 @@ const nav = document.querySelector(".nav");
 const home = document.querySelector(".home");
 const profile = document.querySelector(".profile");
 window.addEventListener("scroll", () => {
-  console.log(window.pageYOffset);
   if (window.pageYOffset >= 1080) {
     nav.classList.add("fxd");
     profile.classList.add("add_hi");
