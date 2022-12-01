@@ -141,15 +141,19 @@ body {
   font-weight: bold;
   color: #6E839E;
 }
-.skill .skill-box .skills ul :nth-child(5) {
-  float: left;
+.skill .skill-box .skills ul {
+  list-style-position: inside;
+  list-style-image: url(../images/html_img.png);
 }
-.skill .skill-box .project {
+.skill .skill-box .skills ul li:nth-child(1) {
+  background-image: url(../images/html_img.png);
+}
+.skill .skill-box .skills .project {
   float: right;
   margin-top: 60px;
   transition: 0.5s;
 }
-.skill .skill-box .project:hover {
+.skill .skill-box .skills .project:hover {
   box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
   transform: scale(0.9);
   transition: 1s;
