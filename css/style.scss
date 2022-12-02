@@ -219,4 +219,10 @@ body{
 
 .portfolio{
   background: linear-gradient($base-color-w, $base-color-b);
+  .portfolio-box{
+    .app-img{
+      width: 640px;
+      height: 360px;
+    }
+  }
 }

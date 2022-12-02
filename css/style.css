@@ -204,4 +204,8 @@ body {
 .portfolio {
   background: linear-gradient(#FFFEFC, #EBE2D1);
 }
+.portfolio .portfolio-box .app-img {
+  width: 640px;
+  height: 360px;
+}
 /*# sourceMappingURL=style.css.map */
