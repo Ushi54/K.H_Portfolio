@@ -141,21 +141,30 @@ body{
     left: 427px;
     width: 1174px;
     .skills{
-      width: 348px;
+      width: 357px;
       height: 529px;
       display: inline-block;
       p{
         font-size: 40px;
         font-weight: bold;
         color: $accent-color;
+        margin-bottom: 25px;
       }
       .front-box{
+        height: 244px;
+        margin-bottom: 90px;
         ul{
           li{
-            padding-left: 35px;
-            line-height: 2.5em;
+            padding-left: 65px;
+            line-height: 52px;
             background: left top no-repeat;
-            background-size: 30px;
+            background-size: 52px;
+            float: left;
+            width: calc(50% - 10px);
+            margin-bottom: 15px;
+          }
+          li:nth-child(2n+1){
+            margin-right: 20px;
           }
           li:nth-child(1){
             background-image: url(../images/html_img.png);
@@ -178,12 +187,15 @@ body{
         }
       }
       .back-box{
+        height: 244px;
         ul{
           li{
-            padding-left: 35px;
-            line-height: 2.5em;
+            padding-left: 65px;
+            line-height: 92px;
             background: left top no-repeat;
-            background-size: 30px;
+            background-size: 50px;
+            width: calc(50% - 10px);
+            margin-bottom: 15px;
           }
           li:nth-child(1){
             background-image: url(../images/Java_img.png);
