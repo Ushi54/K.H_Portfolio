@@ -149,22 +149,57 @@ body{
         font-weight: bold;
         color: $accent-color;
       }
-      ul{
-        list-style-position: inside;
-        list-style-image: url(../images/html_img.png);
-        li:nth-child(1){
-          background-image: url(../images/html_img.png);
+      .front-box{
+        ul{
+          li{
+            padding-left: 35px;
+            line-height: 2.5em;
+            background: left top no-repeat;
+            background-size: 30px;
+          }
+          li:nth-child(1){
+            background-image: url(../images/html_img.png);
+          }
+          li:nth-child(2){
+            background-image: url(../images/css_img.png);
+          }
+          li:nth-child(3){
+            background-image: url(../images/JavaScript_img.png);
+          }
+          li:nth-child(4){
+            background-image: url(../images/Sass_img.png);
+          }
+          li:nth-child(5){
+            background-image: url(../images/jQuery_img.png);
+          }
+          li:nth-child(6){
+            background-image: url(../images/xd_img.png);
+          }
         }
       }
-      .project{
-        float: right;
-        margin-top: 60px;
-        transition: 0.5s;
-        &:hover{
-          box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
-          transform: scale(0.9);
-          transition: 1.0s;
+      .back-box{
+        ul{
+          li{
+            padding-left: 35px;
+            line-height: 2.5em;
+            background: left top no-repeat;
+            background-size: 30px;
+          }
+          li:nth-child(1){
+            background-image: url(../images/Java_img.png);
+          }
         }
+      }
+    }
+
+    .project{
+    float: right;
+    margin-top: 60px;
+    transition: 0.5s;
+      &:hover{
+        box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+        transform: scale(0.9);
+        transition: 1.0s;
       }
     }
   }

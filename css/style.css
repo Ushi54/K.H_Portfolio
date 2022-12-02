@@ -141,19 +141,45 @@ body {
   font-weight: bold;
   color: #6E839E;
 }
-.skill .skill-box .skills ul {
-  list-style-position: inside;
-  list-style-image: url(../images/html_img.png);
+.skill .skill-box .skills .front-box ul li {
+  padding-left: 35px;
+  line-height: 2.5em;
+  background: left top no-repeat;
+  background-size: 30px;
 }
-.skill .skill-box .skills ul li:nth-child(1) {
+.skill .skill-box .skills .front-box ul li:nth-child(1) {
   background-image: url(../images/html_img.png);
 }
-.skill .skill-box .skills .project {
+.skill .skill-box .skills .front-box ul li:nth-child(2) {
+  background-image: url(../images/css_img.png);
+}
+.skill .skill-box .skills .front-box ul li:nth-child(3) {
+  background-image: url(../images/JavaScript_img.png);
+}
+.skill .skill-box .skills .front-box ul li:nth-child(4) {
+  background-image: url(../images/Sass_img.png);
+}
+.skill .skill-box .skills .front-box ul li:nth-child(5) {
+  background-image: url(../images/jQuery_img.png);
+}
+.skill .skill-box .skills .front-box ul li:nth-child(6) {
+  background-image: url(../images/xd_img.png);
+}
+.skill .skill-box .skills .back-box ul li {
+  padding-left: 35px;
+  line-height: 2.5em;
+  background: left top no-repeat;
+  background-size: 30px;
+}
+.skill .skill-box .skills .back-box ul li:nth-child(1) {
+  background-image: url(../images/Java_img.png);
+}
+.skill .skill-box .project {
   float: right;
   margin-top: 60px;
   transition: 0.5s;
 }
-.skill .skill-box .skills .project:hover {
+.skill .skill-box .project:hover {
   box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
   transform: scale(0.9);
   transition: 1s;
