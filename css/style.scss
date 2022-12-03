@@ -219,10 +219,24 @@ body{
 
 .portfolio{
   background: linear-gradient($base-color-w, $base-color-b);
+  position: relative;
   .portfolio-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1522px;
+    height: 581px;
     .app-img{
       width: 640px;
       height: 360px;
+    }
+    .intro{
+      width: 600px;
+      .app-name{
+      }
+      .app-section{
+      }
     }
   }
 }

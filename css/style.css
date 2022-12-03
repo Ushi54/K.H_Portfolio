@@ -203,9 +203,21 @@ body {
 
 .portfolio {
   background: linear-gradient(#FFFEFC, #EBE2D1);
+  position: relative;
+}
+.portfolio .portfolio-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1522px;
+  height: 581px;
 }
 .portfolio .portfolio-box .app-img {
   width: 640px;
   height: 360px;
+}
+.portfolio .portfolio-box .intro {
+  width: 600px;
 }
 /*# sourceMappingURL=style.css.map */
