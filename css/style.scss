@@ -116,7 +116,7 @@ body{
     }
     .intro{
       width: 416px;
-      height: 387px;
+      height: 307px;
       float: right;
       margin-top: 80px;
       color: $accent-color;
@@ -137,8 +137,9 @@ body{
   position: relative;
   .skill-box{
     position: absolute;
-    top: 275px;
-    left: 427px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     width: 1174px;
     .skills{
       width: 357px;
@@ -187,7 +188,7 @@ body{
         }
       }
       .back-box{
-        height: 244px;
+        height: 154px;
         ul{
           li{
             padding-left: 65px;
@@ -225,14 +226,17 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 1522px;
+    width: 1502px;
     height: 581px;
     .app-img{
       width: 640px;
       height: 360px;
+      margin: 110px 0 0 83px;
+      float: left;
     }
     .intro{
       width: 600px;
+      float: left;
       .app-name{
       }
       .app-section{
