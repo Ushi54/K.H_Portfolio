@@ -213,6 +213,7 @@ body {
   transform: translate(-50%, -50%);
   width: 1502px;
   height: 581px;
+  background-color: #9E927C;
 }
 .portfolio .portfolio-box .app-img {
   width: 640px;
@@ -223,5 +224,13 @@ body {
 .portfolio .portfolio-box .intro {
   width: 600px;
   float: left;
+  margin: 200px 0 0 100px;
+}
+.portfolio .portfolio-box .intro .app-name {
+  font-size: 48px;
+  font-weight: bold;
+}
+.portfolio .portfolio-box .intro .app-section {
+  font-size: 24px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -228,6 +228,7 @@ body{
     transform: translate(-50%,-50%);
     width: 1502px;
     height: 581px;
+    background-color: $main-color;
     .app-img{
       width: 640px;
       height: 360px;
@@ -237,9 +238,13 @@ body{
     .intro{
       width: 600px;
       float: left;
+      margin: 200px 0 0 100px;
       .app-name{
+        font-size: 48px;
+        font-weight: bold;
       }
       .app-section{
+        font-size: 24px;
       }
     }
   }
