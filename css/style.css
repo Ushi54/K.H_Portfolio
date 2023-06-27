@@ -11,7 +11,7 @@ body {
 .nav {
   height: 100px;
   width: 100%;
-  background-color: #9E927C;
+  background-color: #B5A89B;
   text-align: center;
 }
 .nav ul {
@@ -35,7 +35,7 @@ body {
 .footer {
   height: 78px;
   width: 100%;
-  background-color: #9E927C;
+  background-color: #B5A89B;
   position: relative;
 }
 .footer p {
@@ -59,7 +59,7 @@ body {
   color: #FFFEFC;
   font-size: 50px;
   font-weight: bold;
-  background-color: #6E839E;
+  background-color: #80AAA6;
   padding: 7px 15px;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 .profile {
-  background: linear-gradient(#FFFEFC, #EBE2D1);
+  background: linear-gradient(#FFFEFC, #D7CDC2);
   position: relative;
 }
 .profile .profile_box {
@@ -110,7 +110,7 @@ body {
   height: 307px;
   float: right;
   margin-top: 80px;
-  color: #6E839E;
+  color: #80AAA6;
 }
 .profile .profile_box .intro .name {
   font-size: 24px;
@@ -122,7 +122,7 @@ body {
 }
 
 .skill {
-  background: linear-gradient(#EBE2D1, #FFFEFC);
+  background: linear-gradient(#D7CDC2, #FFFEFC);
   position: relative;
 }
 .skill .skill-box {
@@ -140,7 +140,7 @@ body {
 .skill .skill-box .skills p {
   font-size: 40px;
   font-weight: bold;
-  color: #6E839E;
+  color: #80AAA6;
   margin-bottom: 25px;
 }
 .skill .skill-box .skills .front-box {
@@ -203,7 +203,7 @@ body {
 }
 
 .portfolio {
-  background: linear-gradient(#FFFEFC, #EBE2D1);
+  background: linear-gradient(#FFFEFC, #D7CDC2);
   position: relative;
 }
 .portfolio .portfolio-box {
@@ -213,7 +213,7 @@ body {
   transform: translate(-50%, -50%);
   width: 1502px;
   height: 581px;
-  background-color: #9E927C;
+  background-color: #B5A89B;
 }
 .portfolio .portfolio-box .app-img {
   width: 640px;
