@@ -1,264 +1,327 @@
 @charset "UTF-8";
 
 $main-color: #B5A89B;
-$base-color-w:  #FFFEFC;
-$base-color-b:  #D7CDC2;
+$base-color-w: #FFFEFC;
+$base-color-b: #D7CDC2;
 $base-color-lb: #D0DCEA;
 $accent-color: #80AAA6;
 
 
-body{
+body {
   font-family: YuGothic;
 }
 
-.container{
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.nav{
-  height: 100px;
-  width: 100%;
-  background-color: $main-color;
-  text-align: center;
-  ul{
-    display: inline-block;
-    color: $base-color-w;
+@media(min-width: 1021px) {
+  .container {
     width: 100%;
-    li{
-      display: inline-block;
-      margin: 38px 55px;
-      font-size: 30px;
-    }
+    height: auto;
+    margin: 0 auto;
   }
-}
 
-.fxd{
-  z-index: 999;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.footer{
-  height: 78px;
-  width: 100%;
-  background-color: $main-color;
-  position: relative;
-  p{
-  font-size: 24px;
-  color: $base-color-w;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  }
-}
-
-
-
-.common{
-  height: 1080px;
-  position: relative;
-  .caption{
-    position: absolute;
-    top: 125px;
-    left: 125px;
-    display: inline;
-    color: $base-color-w;
-    font-size: 50px;
-    font-weight: bold;
-    background-color: $accent-color;
-    padding: 7px 15px;
-    border-radius: 0.5rem;
-    padding: 0.5rem 2rem;
-  }
-}
-
-.home{
-  position: relative;
-  img{
-    height: 100%;
+  .nav {
+    height: 100px;
     width: 100%;
-  }
-  p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: $base-color-w;
-    font-size: 120px;
-    background-color: rgba(0,0,0,0.4);
-    width: 806px;
-    height: 166px;
-    text-align: center;
-    font-family: 'Klee One', cursive;
-    border-radius: 0.5rem;
-  }
-}
-
-.add_hi{
-  margin-top: 100px;
-}
-
-.profile{
-  background: linear-gradient($base-color-w, $base-color-b);
-  position: relative;
-  .profile_box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 853px;
-    height: 387px;
-    img{
-      width: 387px;
-      height: 387px;
-      border-radius: 50%;
-    }
-    .intro{
-      width: 416px;
-      height: 307px;
-      float: right;
-      margin-top: 80px;
-      color: $accent-color;
-      .name{
-        font-size: 24px;
-        margin-bottom: 38px;
-      }
-      .section{
-        font-size: 16px;
-        line-height: 30px;
-      }
-    }
-  }
-}
-
-.skill{
-  background: linear-gradient($base-color-b, $base-color-w);
-  position: relative;
-  .skill-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 1174px;
-    .skills{
-      width: 357px;
-      height: 529px;
-      display: inline-block;
-      p{
-        font-size: 40px;
-        font-weight: bold;
-        color: $accent-color;
-        margin-bottom: 25px;
-      }
-      .front-box{
-        height: 244px;
-        margin-bottom: 90px;
-        ul{
-          li{
-            padding-left: 65px;
-            line-height: 52px;
-            background: left top no-repeat;
-            background-size: 52px;
-            float: left;
-            width: calc(50% - 10px);
-            margin-bottom: 15px;
-          }
-          li:nth-child(2n+1){
-            margin-right: 20px;
-          }
-          li:nth-child(1){
-            background-image: url(../images/html_img.png);
-          }
-          li:nth-child(2){
-            background-image: url(../images/css_img.png);
-          }
-          li:nth-child(3){
-            background-image: url(../images/JavaScript_img.png);
-          }
-          li:nth-child(4){
-            background-image: url(../images/Sass_img.png);
-          }
-          li:nth-child(5){
-            background-image: url(../images/jQuery_img.png);
-          }
-          li:nth-child(6){
-            background-image: url(../images/xd_img.png);
-          }
-        }
-      }
-      .back-box{
-        height: 154px;
-        ul{
-          li{
-            padding-left: 65px;
-            line-height: 92px;
-            background: left top no-repeat;
-            background-size: 50px;
-            width: calc(50% - 10px);
-            margin-bottom: 15px;
-          }
-          li:nth-child(1){
-            background-image: url(../images/Java_img.png);
-          }
-        }
-      }
-    }
-
-    .project{
-    float: right;
-    margin-top: 60px;
-    transition: 0.5s;
-      &:hover{
-        box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
-        transform: scale(0.9);
-        transition: 1.0s;
-      }
-    }
-  }
-}
-
-.portfolio{
-  background: linear-gradient($base-color-w, $base-color-b);
-  position: relative;
-  .portfolio-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 1502px;
-    height: 581px;
     background-color: $main-color;
-    a{
-    .app-img{
-      width: 640px;
-      height: 360px;
-      margin: 110px 0 0 83px;
-      float: left;
-      box-shadow: rgba(0, 0, 0, 0.2) 1rem 1rem 1rem 1rem;
-      transition: 0.5s;
-      &:hover{
-        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-        transform: scale(0.9);
-        transition: 1.0s;
+    text-align: center;
+
+    ul {
+      display: inline-block;
+      color: $base-color-w;
+      width: 100%;
+
+      li {
+        display: inline-block;
+        margin: 38px 55px;
+        font-size: 30px;
       }
     }
   }
-    .intro{
-      width: 600px;
-      float: left;
-      margin: 200px 0 0 100px;
-      color: #fff;
-      .app-name{
-        font-size: 48px;
-        font-weight: bold;
+
+  .fxd {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .footer {
+    height: 78px;
+    width: 100%;
+    background-color: $main-color;
+    position: relative;
+
+    p {
+      font-size: 24px;
+      color: $base-color-w;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+
+
+  .common {
+    height: 1080px;
+    position: relative;
+
+    .caption {
+      position: absolute;
+      top: 125px;
+      left: 125px;
+      display: inline;
+      color: $base-color-w;
+      font-size: 50px;
+      font-weight: bold;
+      background-color: $accent-color;
+      padding: 7px 15px;
+      border-radius: 0.5rem;
+      padding: 0.5rem 2rem;
+    }
+  }
+
+  .home {
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: $base-color-w;
+      font-size: 120px;
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 806px;
+      height: 166px;
+      text-align: center;
+      font-family: 'Klee One', cursive;
+      border-radius: 0.5rem;
+    }
+  }
+
+  .add_hi {
+    margin-top: 100px;
+  }
+
+  .profile {
+    background: linear-gradient($base-color-w, $base-color-b);
+    position: relative;
+
+    .profile_box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 853px;
+      height: 387px;
+
+      img {
+        width: 387px;
+        height: 387px;
+        border-radius: 50%;
+        position: absolute;
       }
-      .app-section{
-        font-size: 24px;
-        margin-top: 1em;
+
+      .intro {
+        width: 416px;
+        height: 307px;
+        float: right;
+        margin-top: 80px;
+        color: $accent-color;
+
+        .name {
+          font-size: 24px;
+          margin-bottom: 38px;
+        }
+
+        .section {
+          font-size: 16px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+
+  .skill {
+    background: linear-gradient($base-color-b, $base-color-w);
+    position: relative;
+
+    .skill-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 1174px;
+
+      .skills {
+        width: 357px;
+        height: 529px;
+        display: inline-block;
+
+        p {
+          font-size: 40px;
+          font-weight: bold;
+          color: $accent-color;
+          margin-bottom: 25px;
+        }
+
+        .front-box {
+          height: 244px;
+          margin-bottom: 90px;
+
+          ul {
+            li {
+              padding-left: 65px;
+              line-height: 52px;
+              background: left top no-repeat;
+              background-size: 52px;
+              float: left;
+              width: calc(50% - 10px);
+              margin-bottom: 15px;
+            }
+
+            li:nth-child(2n+1) {
+              margin-right: 20px;
+            }
+
+            li:nth-child(1) {
+              background-image: url(../images/html_img.png);
+            }
+
+            li:nth-child(2) {
+              background-image: url(../images/css_img.png);
+            }
+
+            li:nth-child(3) {
+              background-image: url(../images/JavaScript_img.png);
+            }
+
+            li:nth-child(4) {
+              background-image: url(../images/Sass_img.png);
+            }
+
+            li:nth-child(5) {
+              background-image: url(../images/jQuery_img.png);
+            }
+
+            li:nth-child(6) {
+              background-image: url(../images/xd_img.png);
+            }
+          }
+        }
+
+        .back-box {
+          height: 154px;
+
+          ul {
+            li {
+              padding-left: 65px;
+              line-height: 92px;
+              background: left top no-repeat;
+              background-size: 50px;
+              width: calc(50% - 10px);
+              margin-bottom: 15px;
+            }
+
+            li:nth-child(1) {
+              background-image: url(../images/Java_img.png);
+            }
+          }
+        }
+      }
+
+      .project {
+        float: right;
+        margin-top: 60px;
+        transition: 0.5s;
+
+        &:hover {
+          box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+          transform: scale(0.9);
+          transition: 1.0s;
+        }
+      }
+    }
+  }
+
+  .portfolio {
+    background: linear-gradient($base-color-w, $base-color-b);
+    position: relative;
+
+    .portfolio-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 1502px;
+      height: 581px;
+      background-color: $main-color;
+
+      a {
+        .app-img {
+          width: 640px;
+          height: 360px;
+          margin: 110px 0 0 83px;
+          float: left;
+          box-shadow: rgba(0, 0, 0, 0.2) 1rem 1rem 1rem 1rem;
+          transition: 0.5s;
+
+          &:hover {
+            box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+            transform: scale(0.9);
+            transition: 1.0s;
+          }
+        }
+      }
+
+      .intro {
+        width: 600px;
+        float: left;
+        margin: 200px 0 0 100px;
+        color: #fff;
+
+        .app-name {
+          font-size: 48px;
+          font-weight: bold;
+        }
+
+        .app-section {
+          font-size: 24px;
+          margin-top: 1em;
+        }
+      }
+    }
+  }
+}
+
+//タブレット表示
+@media(max-width: 1020px) and (min-width:678px) {}
+
+//スマホ表示
+@media(max-width:767px) {
+  .container {
+    width: 767px;
+    height: auto;
+    margin: 0 auto;
+
+    .common {
+      //height: auto;
+    }
+
+    .home {
+      img {
+        width: 767px;
+        height: 767px;
+      }
+
+      p {
+        size: 1rem;
       }
     }
   }
